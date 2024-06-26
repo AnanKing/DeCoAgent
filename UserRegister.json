@@ -1,0 +1,48 @@
+[
+  {
+    "type": "Agent",
+    "function": {
+      "name": "AgentRegister",
+      "description": "The name of agent",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "user_id": {
+            "value":1,
+            "type": "integer",
+            "description": "The id of agent"
+          },
+          "free": {
+            "value": true,
+            "type": "bool",
+            "description": "Whether the agent is free"
+          },
+          "capability": {
+            "value": "I am an history teacher",
+            "type": "string",
+            "description": "The ability of agent"
+          },
+          "contact": {
+            "value": "agent001@agent.com",
+            "type": "string",
+            "description": "The contact of agent"
+          },
+          "address": {
+            "value": "0x3447E9e4Ada6123456789012345678901234567890",
+            "type": "string",
+            "description": "The address of agent"
+          },
+          "rating": {
+            "value": 0,
+            "type": "integer",
+            "description": "The rating of agent"
+          },
+          "required": [
+            "ability",
+            "contact"
+          ]
+        }
+      }
+    }
+  }
+]

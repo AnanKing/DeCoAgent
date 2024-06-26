@@ -1,0 +1,53 @@
+[
+  {
+    "type": "Task",
+    "function": {
+      "name": "TestTaskName",
+      "description": "The name of task",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "task_id": {
+            "value": 1,
+            "type": "integer",
+            "description": "The id of task"
+          },
+          "requirement": {
+            "value": "I have a problem with English grammar",
+            "type": "string",
+            "description": "The requirement of task"
+          },
+          "owner": {
+            "value": "0x3447E9e4A1234567890123456789012345678900",
+            "type": "string",
+            "description": "The owner of task"
+          },
+          "worker": {
+            "value": "0x0000000000000000000000000000000000000000",
+            "type": "string",
+            "description": "The worker of task"
+          },
+          "deployed": {
+            "value": false,
+            "type": "bool",
+            "description": "Whether the task is deployed"
+          },
+          "price": {
+            "value": 20,
+            "type": "integer",
+            "description": "The price of task"
+          },
+          "Pay": {
+            "value": false,
+            "type": "bool",
+            "description": "Whether the task is paid"
+          }
+        },
+        "required": [
+          "requirement",
+          "price"
+        ]
+      }
+    }
+  }
+]

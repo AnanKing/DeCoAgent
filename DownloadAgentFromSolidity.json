@@ -1,0 +1,122 @@
+[
+  {
+    "type": "User",
+    "function": {
+      "name": "AgentRegister",
+      "description": "The name of agent",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "user_id": {
+            "value": 1,
+            "type": "integer"
+          },
+          "free": {
+            "value": true,
+            "type": "bool"
+          },
+          "ability": {
+            "value": "I am an history teacher",
+            "type": "string"
+          },
+          "contact": {
+            "value": "agent001@agent.com",
+            "type": "string"
+          },
+          "address": {
+            "value": "0x3447E9e4Ada67e580D38Bb438B3020E658d9F2e2",
+            "type": "string"
+          },
+          "rating": {
+            "value": 0,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "ability",
+          "contact"
+        ]
+      }
+    }
+  },
+  {
+    "type": "User",
+    "function": {
+      "name": "AgentRegisterName",
+      "description": "The name of user",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "User_id": {
+            "value": 1,
+            "type": "integer"
+          },
+          "is_free": {
+            "value": false,
+            "type": "bool"
+          },
+          "ability": {
+            "value": "I am an English teacher",
+            "type": "string"
+          },
+          "contact": {
+            "value": "english@gmail.com",
+            "type": "string"
+          },
+          "address": {
+            "value": "0xFaEa7D045120399635b6D95AA3C932A22fEe208B",
+            "type": "string"
+          },
+          "rating": {
+            "value": 5,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "ability",
+          "contact"
+        ]
+      }
+    }
+  },
+  {
+    "type": "User",
+    "function": {
+      "name": "AgentRegisterName",
+      "description": "The name of user",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "User_id": {
+            "value": 2,
+            "type": "integer"
+          },
+          "is_free": {
+            "value": true,
+            "type": "bool"
+          },
+          "ability": {
+            "value": "I am a programmer",
+            "type": "string"
+          },
+          "contact": {
+            "value": "code@gmail.com",
+            "type": "string"
+          },
+          "address": {
+            "value": "0x7D1Bfb8b2402302A64a6c493D79D9e6137DAEe2b",
+            "type": "string"
+          },
+          "rating": {
+            "value": 0,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "ability",
+          "contact"
+        ]
+      }
+    }
+  }
+]
