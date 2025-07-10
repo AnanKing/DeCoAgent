@@ -2,6 +2,9 @@
 Decentralized Autonomous Collaboration Framework for Large Language Model Empowered Agents
 
 
+Jin, Anan, Yuhang Ye, Brian Lee, and Yuansong Qiao. "DeCoAgent: Large Language Model Empowered Decentralized Autonomous Collaboration Agents Based on Smart Contracts." IEEE Access (2024). https://doi.org/10.1109/ACCESS.2024.3481641
+
+
 ## 1. Introduction Environment
 ```
 Remix version 0.8.17
